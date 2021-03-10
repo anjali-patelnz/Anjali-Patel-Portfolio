@@ -36,3 +36,13 @@ body {
   font-family: var(--subheading-font-family);
   color: var(--secondary-color);
 }
+
+.about img {
+  max-height: 300px;
+}
+
+.about h3 {
+  font-family: var(--heading-font-family);
+  font-size: 34px;
+  color: #2c4964;
+}
