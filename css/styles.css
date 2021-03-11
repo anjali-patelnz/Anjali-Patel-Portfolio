@@ -12,6 +12,10 @@ body {
   color: var(--primary-color);
 }
 
+section {
+  padding: 60px 0;
+}
+
 #hero {
   background: url(../images/Workdesk.jpg) top center;
   width: 100%;
@@ -38,11 +42,76 @@ body {
 }
 
 .about img {
-  max-height: 300px;
+  max-height: 250px;
 }
 
 .about h3 {
   font-family: var(--heading-font-family);
   font-size: 34px;
   color: #2c4964;
+}
+
+.section-bg {
+  background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+}
+
+.section-title {
+  padding-bottom: 30px;
+}
+
+.section-title h3 {
+  font-family: var(--heading-font-family);
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  color: #345676;
+}
+
+.underline {
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--accent-color);
+}
+
+.icon-box {
+  padding: 20px 15px;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgb(68, 88, 144 / 20%);
+  border-radius: 8px;
+}
+
+.icon-box h4 {
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.icon-box p {
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 0;
+  color: var(--primary-color);
+}
+
+.follow-me h3 {
+  font-family: var(--heading-font-family);
+  color: var(--accent-color);
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.follow-me p {
+  font-family: var(--heading-font-family);
+  font-size: 14px;
+  line-height: 24px;
+  color: #2c4964;
+}
+
+.follow-me .social-links {
+  padding-bottom: 20px;
 }
