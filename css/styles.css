@@ -37,18 +37,21 @@ section {
   margin-bottom: 20px;
   font-size: 30px;
   font-weight: 300;
+  line-height: 1.5;
   font-family: var(--subheading-font-family);
   color: var(--secondary-color);
-}
-
-.about img {
-  max-height: 250px;
 }
 
 .about h3 {
   font-family: var(--heading-font-family);
   font-size: 34px;
   color: #2c4964;
+}
+
+.about img {
+  max-height: 300px;
+  float: right;
+  border-radius: 8px;
 }
 
 .section-bg {
@@ -88,7 +91,7 @@ section {
   color: black;
 }
 
-.icon-box p {
+.icon-box li {
   font-size: 15px;
   line-height: 24px;
   margin-bottom: 0;
@@ -114,4 +117,26 @@ section {
 
 .follow-me .social-links {
   padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 50px;
+  }
+
+  #hero h2 {
+    font-size: 25px;
+  }
+
+  .about h3 {
+    font-size: 26px;
+  }
+
+  .about p {
+    font-size: 14px;
+  }
+
+  .section-title h3 {
+    font-size: 25px;
+  }
 }
