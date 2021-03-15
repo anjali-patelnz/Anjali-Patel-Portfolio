@@ -79,8 +79,13 @@ section {
 .icon-box {
   padding: 20px 15px;
   background: #fff;
-  box-shadow: 0 0 29px 0 rgb(68, 88, 144 / 20%);
+  box-shadow: 0 0 29px 0 rgb(68 88 144 / 20%);
   border-radius: 8px;
+}
+
+.icon-box i {
+  color: var(--accent-color);
+  font-size: 36px;
 }
 
 .icon-box h4 {
@@ -133,6 +138,11 @@ section {
 
 .get-in-touch p {
   font-size: 14px;
+}
+
+.anjali-email {
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
 .resume-item {
