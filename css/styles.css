@@ -149,6 +149,27 @@ section {
   padding: 5px 15px;
 }
 
+.portfolio-item h3 {
+  color: var(--secondary-color);
+  font-family: var(--subheading-font-family);
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.portfolio-item h4 {
+  color: #2c4964;
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.my-code h3 {
+  color: var(--secondary-color);
+  font-family: var(--subheading-font-family);
+  font-size: 26px;
+  font-weight: 500;
+}
+
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 50px;
