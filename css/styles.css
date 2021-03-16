@@ -42,6 +42,17 @@ section {
   color: var(--secondary-color);
 }
 
+.logo {
+  font-family: var(--heading-font-family);
+  font-size: 26px;
+  letter-spacing: 3px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #2c4964;
+}
+
 .about h3 {
   font-family: var(--heading-font-family);
   font-size: 34px;
