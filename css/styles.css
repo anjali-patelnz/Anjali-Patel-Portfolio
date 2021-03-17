@@ -153,8 +153,16 @@ section {
 
 .social-links a {
   color: var(--accent-color);
-  font-size: 32px;
+  font-size: 24px;
+  border: 1px solid var(--accent-color);
+  padding: 8px 12px;
+  border-radius: 8px;
   margin-right: 5px;
+}
+
+.social-links a:hover {
+  color: white;
+  background: var(--accent-color);
 }
 
 .get-in-touch i {
