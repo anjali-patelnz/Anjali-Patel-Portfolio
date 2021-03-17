@@ -26,6 +26,11 @@ section {
   padding: 60px 0;
 }
 
+.resume,
+.portfolio {
+  padding: 100px 0;
+}
+
 #hero {
   background: url(../images/dark-workdesk.jpg) top center;
   width: 100%;
