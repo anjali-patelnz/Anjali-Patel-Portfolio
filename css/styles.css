@@ -28,7 +28,7 @@ section {
 
 .resume,
 .portfolio {
-  padding: 100px 0;
+  padding: 100px 0 70px;
 }
 
 #hero {
@@ -261,6 +261,11 @@ section {
 .my-resume-button:hover {
   background: var(--accent-color);
   color: white;
+}
+
+footer p {
+  font-size: 14px;
+  margin-top: 25px;
 }
 
 @media (max-width: 768px) {
