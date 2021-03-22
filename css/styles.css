@@ -82,6 +82,14 @@ section {
   vertical-align: middle;
 }
 
+.about-me-links {
+  margin-top: 50px;
+}
+
+.my-projects-button {
+  margin-right: 10px;
+}
+
 .section-bg {
   background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 }
@@ -156,7 +164,7 @@ section {
   color: var(--accent-color);
   font-size: 24px;
   border: 1px solid var(--accent-color);
-  padding: 8px 13px;
+  padding: 8px 15px;
   border-radius: 50%;
   margin-right: 5px;
 }
@@ -263,7 +271,7 @@ section {
   color: white;
 }
 
-footer p {
+.footnote {
   font-size: 14px;
   margin-top: 25px;
 }
