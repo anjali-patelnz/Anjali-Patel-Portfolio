@@ -232,7 +232,8 @@ section {
   font-weight: 500;
 }
 
-.my-code a {
+.my-code a,
+.portfolio-item a {
   background: var(--accent-color);
   padding: 10px 24px;
   color: white;
@@ -240,7 +241,8 @@ section {
   text-decoration: none;
 }
 
-.my-code a:hover {
+.my-code a:hover,
+.portfolio-item a:hover {
   background: #dd5a92;
 }
 
