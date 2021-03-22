@@ -76,9 +76,10 @@ section {
 }
 
 .about img {
-  max-height: 300px;
+  max-width: 100%;
   float: right;
   border-radius: 8px;
+  vertical-align: middle;
 }
 
 .section-bg {
@@ -155,7 +156,7 @@ section {
   color: var(--accent-color);
   font-size: 24px;
   border: 1px solid var(--accent-color);
-  padding: 8px 12px;
+  padding: 8px 13px;
   border-radius: 50%;
   margin-right: 5px;
 }
@@ -229,6 +230,18 @@ section {
   font-family: var(--subheading-font-family);
   font-size: 26px;
   font-weight: 500;
+}
+
+.my-code a {
+  background: var(--accent-color);
+  padding: 10px 24px;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.my-code a:hover {
+  background: #dd5a92;
 }
 
 @media (max-width: 768px) {
