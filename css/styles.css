@@ -296,4 +296,24 @@ section {
   .section-title h3 {
     font-size: 25px;
   }
+
+  .careerOutline .col-md {
+    margin-bottom: 15px;
+  }
+
+  .resume-title {
+    font-size: 22px;
+  }
+
+  .resume-item h4 {
+    font-size: 16px;
+  }
+
+  .resume-item h5 {
+    font-size: 14px;
+  }
+
+  .resume-item li {
+    font-size: 14px;
+  }
 }
