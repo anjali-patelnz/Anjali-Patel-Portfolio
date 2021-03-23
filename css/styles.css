@@ -231,6 +231,11 @@ section {
   font-family: var(--heading-font-family);
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.portfolio-item p {
+  margin-bottom: 40px;
 }
 
 .my-code h3 {
@@ -238,6 +243,10 @@ section {
   font-family: var(--subheading-font-family);
   font-size: 26px;
   font-weight: 500;
+}
+
+.my-code p {
+  margin-bottom: 30px;
 }
 
 .my-code a,
@@ -293,6 +302,10 @@ section {
     font-size: 14px;
   }
 
+  .about-me-links {
+    font-size: 12px;
+  }
+
   .section-title h3 {
     font-size: 25px;
   }
@@ -315,5 +328,9 @@ section {
 
   .resume-item li {
     font-size: 14px;
+  }
+
+  .portfolio .app-image {
+    margin-bottom: 20px;
   }
 }
