@@ -314,19 +314,22 @@ section {
     margin-bottom: 15px;
   }
 
-  .resume-title {
+  .resume-title,
+  .portfolio-item h3 {
     font-size: 22px;
   }
 
-  .resume-item h4 {
+  .resume-item h4,
+  .portfolio-item h4 {
     font-size: 16px;
   }
 
-  .resume-item h5 {
-    font-size: 14px;
-  }
-
-  .resume-item li {
+  .resume-item h5,
+  .resume-item li,
+  .portfolio-item p,
+  .portfolio-item a,
+  .my-code p,
+  .my-code a {
     font-size: 14px;
   }
 
