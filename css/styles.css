@@ -251,7 +251,8 @@ section {
 
 .my-code a,
 .portfolio-item a,
-.my-projects-button {
+.my-projects-button,
+.my-resume-button {
   background: var(--accent-color);
   padding: 10px 24px;
   color: white;
@@ -261,22 +262,9 @@ section {
 
 .my-code a:hover,
 .portfolio-item a:hover,
-.my-projects-button:hover {
-  background: #dd5a92;
-  color: white;
-}
-
-.my-resume-button {
-  background: white;
-  padding: 10px 24px;
-  color: var(--accent-color);
-  border-radius: 50px;
-  text-decoration: none;
-  border: 1px solid var(--accent-color);
-}
-
+.my-projects-button:hover,
 .my-resume-button:hover {
-  background: var(--accent-color);
+  background: #dd5a92;
   color: white;
 }
 
